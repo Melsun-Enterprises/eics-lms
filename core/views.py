@@ -41,3 +41,10 @@ def payment_view(request):
 def payment_success(request, transaction_id):
     payment = get_object_or_404(Payment, transaction_id=transaction_id)
     return render(request, 'payment/payment_success.html', {'payment': payment})
+
+    # core/views.py
+
+from django.shortcuts import render
+
+def home(request):
+    return render(request, 'core/home.html')
