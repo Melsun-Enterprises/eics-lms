@@ -1,6 +1,8 @@
-# eics_lms/wsgi.py
-import os
-from django.core.wsgi import get_wsgi_application
+# eics_lms/urls.py
+from django.contrib import admin
+from django.urls import path, include
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'eics_lms.settings')
-application = get_wsgi_application()
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('core.urls')),
+]
