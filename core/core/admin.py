@@ -5,3 +5,7 @@ from .models import Student, Course, Payment  # Example models
 admin.site.register(Student)
 admin.site.register(Course)
 admin.site.register(Payment)
+from django.apps import AppConfig
+
+class CoreConfig(AppConfig):
+    name = 'core'
