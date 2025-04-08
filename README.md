@@ -1,56 +1,69 @@
-EICS LMS – Powerful Features for an Exceptional eLearning Experience
+# 🎓 EICS LMS — Learn. Grow. Get Hired.
 
-🚀 Frontend Drag & Drop Course Builder
+Welcome to the official Learning Management System (LMS) for **Emmanuel Institute of Certified Studies (EICS)** — a future-forward digital learning platform built with Django 5.
 
-EICS offers a cutting-edge drag-and-drop system to create dynamic and resourceful courses effortlessly. It’s feature-rich yet incredibly intuitive—designed to enhance your experience and streamline course creation.
-📊 Personalized Dashboard for Teachers & Students
+[🔗 View on GitHub](https://github.com/Melsun-Enterprises/eics-lms)
 
-A well-organized, user-friendly dashboard gives both teachers and students easy access to all essential features for managing their learning journey.
-📝 Unlimited Quizzes
+---
 
-Create interactive, custom-tailored quizzes with various question types, timers, and other advanced features to enhance learning engagement.
-📂 Assignments
+## 🚀 Key Features
 
-Improve learner retention with easy-to-create and assess assignments, making online education more interactive and effective.
-📅 Event Calendar
+- 📚 **Course Management** — Lecturers can easily upload, manage, and organize course content.
+- 🧑‍🎓 **Student Dashboards** — Personalized dashboards with progress tracking and notifications.
+- 📅 **Interactive Calendar** — Stay on top of classes, exams, and events.
+- 💳 **Secure M-PESA Payments** — Powered by Paybill `4080793`. Use your admission number as the account.
+- 📈 **Analytics & Insights** — Real-time stats on attendance, grades, and more.
+- 🔔 **Notification System** — Stay updated without missing a beat.
+- 🛠️ **Admin Panel** — Powerful, intuitive controls for staff and management.
 
-Keep students on track by scheduling assignments, setting deadlines, and ensuring they stay updated with your course plans.
-📈 Advanced Analytics & Reports
+---
 
-Monitor course effectiveness, track student performance, and make data-driven decisions with powerful analytics and reporting tools.
-🔔 Notifications
+## 💼 The Freelancer Tab (Beta)
 
-Keep learners and instructors informed with real-time notifications, enhancing engagement and communication within the LMS.
-📧 Email Templates & Editor
+All students will be **automatically added** to a new **Freelancer** tab within the LMS.
 
-Use pre-designed email templates for various events, with the flexibility to customize content directly from the settings.
-💰 Multi-Instructor & Revenue Sharing
+> 🎯 This boosts visibility and helps students land real jobs, gigs, or side hustles with ease.
 
-Enable multiple professionals to collaborate in managing courses while offering seamless revenue sharing and commission allocation.
-🏆 Certificate Builder
+Hiring? Just browse the Freelancer tab.  
+A student? Your profile does the talking.
 
-Design custom certificates that align with your brand, giving students something they’ll be proud to showcase.
-📆 Comprehensive Calendar
+Say less. Work more.
 
-Students can view assignment due dates, upcoming lessons, and scheduled events in a beautifully designed event calendar.
-📦 Course Bundles
+---
 
-Boost sales by grouping multiple courses, allowing students to purchase bundled learning packages.
-👥 Multi-Instructor Support
+## ⚙️ Tech Stack
 
-Enable multiple instructors to collaborate on the same course, fostering teamwork and improving course content quality.
-📌 Enrollments & Gradebook
+- Django 5.2
+- Gunicorn
+- PostgreSQL
+- HTML5, TailwindCSS
+- Render (for deployment)
+- M-PESA API Integration (Lipa na M-PESA)
 
-Gain manual control over student enrollments while tracking progress through a built-in grade that reflects quiz and assignment performance.
-📜 Prerequisites & Course Previews
+---
 
-Set course prerequisites to guide students through structured learning paths. Offer lesson previews so potential students can try before they buy.
-📎 Course Attachments
+## 📦 Local Setup
 
-Enhance courses with unlimited downloadable resources or private files for students.
-⏳ Content Drip Scheduling
+```bash
+git clone https://github.com/Melsun-Enterprises/eics-lms.git
+cd eics-lms
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+🧠 Dev Notes
+Set up your .env for secrets and M-PESA keys.
 
-Automate lesson, quiz, and assignment release schedules to create a structured and engaging learning experience.
-📂 Quiz Export/Import
+Create a superuser with python manage.py createsuperuser.
 
-Save time by easily exporting and importing quiz data, making content management more efficient.
+Admin path: /admin/ – keep it safe.
+🙌 Contributing
+Pull requests are welcome. Feedback is golden.
+Whether you're a student or alumni — this platform is yours too.
+🧾 License
+MIT License.
+Built by EICS.
+Crafted for learners.
+Tuned for impact.
+
