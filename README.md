@@ -2,7 +2,7 @@ EICS LMS – Powerful Features for an Exceptional eLearning Experience
 
 🚀 Frontend Drag & Drop Course Builder
 
-Edumel offers a cutting-edge drag-and-drop system to create dynamic and resourceful courses effortlessly. It’s feature-rich yet incredibly intuitive—designed to enhance your experience and streamline course creation.
+EICS offers a cutting-edge drag-and-drop system to create dynamic and resourceful courses effortlessly. It’s feature-rich yet incredibly intuitive—designed to enhance your experience and streamline course creation.
 📊 Personalized Dashboard for Teachers & Students
 
 A well-organized, user-friendly dashboard gives both teachers and students easy access to all essential features for managing their learning journey.
