@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: eics-lms
+    env: python
+    region: us-west-1
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    startCommand: gunicorn eics_lms.wsgi:application
+    envVars:
+      - key: DJANGO_SETTINGS_MODULE
+        value: eics_lms.settings
+    instanceSize: free
+    pythonVersion: 3.10  # Specify the Python version here
